@@ -6,7 +6,7 @@
 class pointCloud {
     public:
         // PARAMETERIZED CONSTRUCTOR
-        pointCloud(int size=10);
+        pointCloud(int capacity=10);
         // COPY CONSTRUCTOR
         pointCloud(const pointCloud& other);
         // ASSIGNMENT OPERATOR
@@ -18,7 +18,8 @@ class pointCloud {
         void printPoints();
     private:
         point* cloud;
-        int size;
+        int capacity; 
+        int numPoints;
 };
 
 #endif
