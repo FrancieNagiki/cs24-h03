@@ -2,6 +2,10 @@
 #define POINTCLOUD_H 
 
 #include "point.h"
+// class pointCloud stores an arbitrary number of points in 2D, where a point is defined in point.h
+// The class pointCloud uses a dynamic array with an initial capacity that is adjustable.
+//The insert() method stores a new point in the array. If the array is full, its capacity is increased
+//at run time similar to the bag class provided in Chapter 4.
 
 class pointCloud {
     public:
