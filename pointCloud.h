@@ -17,7 +17,7 @@ class pointCloud {
         void insertPoint(const point &p);
         void printPoints();
     private:
-        point *cloud;
+        point* cloud;
         int size;
 };
 
