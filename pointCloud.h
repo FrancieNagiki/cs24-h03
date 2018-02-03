@@ -1,7 +1,7 @@
 class pointCloud {
     public:
         // PARAMETERIZED CONSTRUCTOR
-        pointCloud(int size=10){cloud = new point[numpoints];}
+        pointCloud(int size=10);
         // COPY CONSTRUCTOR
         pointCloud(const pointCloud& other);
         // ASSIGNMENT OPERATOR
