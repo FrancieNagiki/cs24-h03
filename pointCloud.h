@@ -14,8 +14,8 @@ class pointCloud {
         //DESTRUCTOR
         ~pointCloud();
         // MODIFICATION MEMBER FUNCTIONS
-        void insertPoint(const point &p); //inserts a new point to cloud
-        void printPoints();
+        void insert(const point &p); //stores a new point to cloud
+        void printAll(); //prints all the points stored so far
     private:
         point* cloud;
         int capacity; //capacity of the arrays of points
