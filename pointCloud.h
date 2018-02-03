@@ -1,3 +1,6 @@
+#ifndef POINTCLOUD_H 
+#define POINTCLOUD_H 
+
 #include "point.h"
 
 class pointCloud {
@@ -17,3 +20,5 @@ class pointCloud {
         point *cloud;
         int size;
 };
+
+#endif
