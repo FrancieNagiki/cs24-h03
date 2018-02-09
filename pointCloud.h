@@ -14,7 +14,7 @@ class pointCloud {
         // COPY CONSTRUCTOR
         pointCloud(const pointCloud& other);
         // ASSIGNMENT OPERATOR
-        void operator=(const point& other);
+        void operator=(const pointCloud& other);
         //DESTRUCTOR
         ~pointCloud();
         // MODIFICATION MEMBER FUNCTIONS
